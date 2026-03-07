@@ -16,6 +16,6 @@ def get_input(filename):
         # reading IDs
         requests = everything
 
-    return requests
+    return k, m, requests
 
 #also seems to be working

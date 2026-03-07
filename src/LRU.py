@@ -3,7 +3,7 @@ from collections import OrderedDict
 class LRU:
     def __init__(self, capacity):
 
-        self.capacity = capacity
+        self.capacity = int(capacity)
 
         # number of misses in the cache
         self.misses = 0
