@@ -25,7 +25,7 @@ except:
 
 
 #Initializing Request IDs
-ID_list = random.choices(range(0, 9999), k=m)
+ID_list = random.choices(range(0, 100), k=m)
 
 list_length = len(ID_list)
 
